@@ -1,21 +1,44 @@
-# HILVER.EXE v4 — one-page React portfolio
+# 💻 HILVER.EXE — Personal Portfolio
 
-## Start
+Welcome to my personal portfolio repository!
+
+A modern, responsive, CMD-inspired portfolio website built with React, Vite, JavaScript, and CSS.
+
+## Features
+
+- Interactive command-line terminal
+- Responsive desktop and mobile design
+- Dark and light themes
+- Project showcase with search and filters
+- Professional experience and technical skills
+- Resume viewing and downloading
+- Contact and social links
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Lucide React
+
+## Getting Started
+
 ```bash
 npm install
 npm run dev
+```
+
+## Production Build
+
+```bash
 npm run build
 ```
 
-## Customize
-- **src/data/profile.js** — email, LinkedIn, GitHub and resume path.
-- **src/data/portfolio.js** — projects, experience, skills.
-- **src/components/Hero.jsx** — intro and View Resume / Download CV buttons.
-- **src/components/Contact.jsx** — contact section.
-- **src/style.css** — responsive design and colors.
-- **public/resume.pdf** — add your real PDF (not included).
+## About
 
-Both resume buttons are already wired to `/resume.pdf`. They will show a missing-file error until you place the PDF in public. Test http://localhost:5173/resume.pdf.
+Developed by **Hilver Aglanao**, an Information Technology graduate passionate about IT support, systems administration, technical operations, and software development.
 
-## Deploy
-Run `npm run build` and deploy the project to Vercel (Vite framework). Commit source code and public assets; exclude node_modules and dist.
+---
+
+© 2026 HILVER.EXE — Built with passion and curiosity.
